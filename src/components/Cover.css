@@ -1,0 +1,43 @@
+.inner-cover {
+    background-image: url(../images/background-website.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: (rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.cover-heading {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1 {
+    color:rgb(253, 244, 244);
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.lead {
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: rgb(70, 63, 63);
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+    
+.btn:hover {
+    background-color: whitesmoke;
+    transition: all 0.5s ease-in;
+}

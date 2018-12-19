@@ -1,0 +1,26 @@
+.navbar {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.mb-4 {
+    margin-bottom: 0rem!important;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.btn-outline-success {
+    color: #5cb85c;
+    background-image: none;
+    background-color: transparent;
+    border-color: #5cb85c;
+}
+
+.btn-outline-success:hover {
+    color: #5cb85c;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
