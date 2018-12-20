@@ -37,7 +37,19 @@ h1 {
     text-transform: uppercase;
 }
     
-.btn:hover {
+/* .btn:hover {
     background-color: whitesmoke;
     transition: all 0.5s ease-in;
+} */
+
+.btn-primary {
+    color: #292b2c;
+    background-color: bisque;
+    border-color: bisque;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(240, 208, 169);
+    border-color: rgb(240, 208, 169);
 }

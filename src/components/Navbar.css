@@ -24,3 +24,7 @@
     background-color: #5cb85c;
     border-color: #5cb85c;
 }
+
+.main-nav-active {
+    color: tomato;
+}

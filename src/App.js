@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Home from './pages/Home'
-
+import Catalogue from './pages/Catalogue'
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
       <Router>
         <div>
           <Route exact path="/" component={Home} />
+          <Route path="/catalogue" component={Catalogue} />
         </div>
       </Router>
     );

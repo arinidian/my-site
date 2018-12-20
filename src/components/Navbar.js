@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 class Navbar extends Component {
+    getInitialState
     render() {
         return (
             <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse mb-4">
@@ -17,7 +18,7 @@ class Navbar extends Component {
                                 <Link class="nav-link" to="/">HOME <span class="sr-only">(current)</span></Link>
                                 </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/"> CATALOGUE </Link>
+                                <Link class="nav-link" to="/catalogue"> CATALOGUE </Link>
                                 </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="/about"> CONTACT </Link>
